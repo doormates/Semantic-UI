@@ -20,11 +20,11 @@
   margin: 1em 0em;
   background: #f8f8f9;
   padding: 1em 1.5em;
-  line-height: 1.4285em;
+  line-height: 1.5em;
   color: rgba(0, 0, 0, 0.87);
   -webkit-transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
           transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
-  border-radius: 0.28571429rem;
+  border-radius: 0.26666667rem;
   box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.22) inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.message:first-child {
@@ -42,14 +42,14 @@
 /* Header */
 .ui.message .header {
   display: block;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
   margin: -0.14285em 0em 0rem 0em;
 }
 
 /* Default font size */
 .ui.message .header:not(.ui) {
-  font-size: 1.14285714em;
+  font-size: 1.13333333em;
 }
 
 /* Paragraph */
@@ -108,7 +108,7 @@
   cursor: pointer;
   position: absolute;
   margin: 0em;
-  top: 0.78575em;
+  top: 0.75em;
   right: 0.5em;
   opacity: 0.7;
   -webkit-transition: opacity 0.1s ease;
@@ -183,7 +183,7 @@
 
 .ui.attached.message {
   margin-bottom: -1px;
-  border-radius: 0.28571429rem 0.28571429rem 0em 0em;
+  border-radius: 0.26666667rem 0.26666667rem 0em 0em;
   box-shadow: 0em 0em 0em 1px rgba(34, 36, 38, 0.15) inset;
   margin-left: -1px;
   margin-right: -1px;
@@ -194,7 +194,7 @@
 }
 .ui.bottom.attached.message {
   margin-top: -1px;
-  border-radius: 0em 0em 0.28571429rem 0.28571429rem;
+  border-radius: 0em 0em 0.26666667rem 0.26666667rem;
   box-shadow: 0em 0em 0em 1px rgba(34, 36, 38, 0.15) inset, 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
 }
 .ui.bottom.attached.message:not(:last-child) {
@@ -259,7 +259,7 @@
 ---------------*/
 
 .ui.black.message {
-  background-color: #1b1c1d;
+  background-color: #1d1d1d;
   color: rgba(255, 255, 255, 0.9);
 }
 
@@ -270,7 +270,7 @@
 
 /* Positive */
 .ui.positive.message {
-  background-color: #fcfff5;
+  background-color: #16b85c;
   color: #2c662d;
 }
 .ui.positive.message,
@@ -284,14 +284,14 @@
 /* Negative */
 .ui.negative.message {
   background-color: #fff6f6;
-  color: #9f3a38;
+  color: #9e3838;
 }
 .ui.negative.message,
 .ui.attached.negative.message {
   box-shadow: 0px 0px 0px 1px #e0b4b4 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.negative.message .header {
-  color: #912d2b;
+  color: #e74c3c;
 }
 
 /* Info */
@@ -323,19 +323,19 @@
 /* Error */
 .ui.error.message {
   background-color: #fff6f6;
-  color: #9f3a38;
+  color: #9e3838;
 }
 .ui.error.message,
 .ui.attached.error.message {
   box-shadow: 0px 0px 0px 1px #e0b4b4 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.error.message .header {
-  color: #912d2b;
+  color: #e74c3c;
 }
 
 /* Success */
 .ui.success.message {
-  background-color: #fcfff5;
+  background-color: #16b85c;
   color: #2c662d;
 }
 .ui.success.message,
@@ -349,11 +349,11 @@
 /* Colors */
 .ui.inverted.message,
 .ui.black.message {
-  background-color: #1b1c1d;
+  background-color: #1d1d1d;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.red.message {
-  background-color: #ffe8e6;
+  background-color: #e74c3c;
   color: #db2828;
 }
 .ui.red.message .header {
@@ -368,10 +368,10 @@
 }
 .ui.yellow.message {
   background-color: #fff8db;
-  color: #b58105;
+  color: #d3c14d;
 }
 .ui.yellow.message .header {
-  color: #9c6f04;
+  color: #ceba39;
 }
 .ui.olive.message {
   background-color: #fbfdef;
@@ -381,7 +381,7 @@
   color: #7aa61a;
 }
 .ui.green.message {
-  background-color: #e5f9e7;
+  background-color: #00e3ed;
   color: #1ebc30;
 }
 .ui.green.message .header {
@@ -395,32 +395,32 @@
   color: #0e8c8c;
 }
 .ui.blue.message {
-  background-color: #dff0ff;
-  color: #2185d0;
+  background-color: #3498db;
+  color: #3498db;
 }
 .ui.blue.message .header {
-  color: #1e77ba;
+  color: #258cd1;
 }
 .ui.violet.message {
-  background-color: #eae7ff;
+  background-color: #a69fed;
   color: #6435c9;
 }
 .ui.violet.message .header {
   color: #5a30b5;
 }
 .ui.purple.message {
-  background-color: #f6e7ff;
-  color: #a333c8;
+  background-color: #a69fed;
+  color: #a69fed;
 }
 .ui.purple.message .header {
-  color: #922eb4;
+  color: #928ae9;
 }
 .ui.pink.message {
-  background-color: #ffe3fb;
-  color: #e03997;
+  background-color: #e74c3c;
+  color: #e74c3c;
 }
 .ui.pink.message .header {
-  color: #dd238b;
+  color: #e43725;
 }
 .ui.brown.message {
   background-color: #f1e2d3;
@@ -435,19 +435,19 @@
 ---------------*/
 
 .ui.small.message {
-  font-size: 0.92857143em;
+  font-size: 0.93333333em;
 }
 .ui.message {
   font-size: 1em;
 }
 .ui.large.message {
-  font-size: 1.14285714em;
+  font-size: 1.13333333em;
 }
 .ui.huge.message {
-  font-size: 1.42857143em;
+  font-size: 1.4em;
 }
 .ui.massive.message {
-  font-size: 1.71428571em;
+  font-size: 1.73333333em;
 }
 
 

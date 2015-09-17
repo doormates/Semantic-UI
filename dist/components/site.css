@@ -14,13 +14,12 @@
              Page
 *******************************/
 
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
 html,
 body {
   height: 100%;
 }
 html {
-  font-size: 14px;
+  font-size: 15px;
 }
 body {
   margin: 0px;
@@ -28,9 +27,9 @@ body {
   overflow-x: hidden;
   min-width: 320px;
   background: #ffffff;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 1.4285em;
+  font-family: 'Oxygen', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5em;
   color: rgba(0, 0, 0, 0.87);
   font-smoothing: antialiased;
 }
@@ -45,7 +44,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   line-height: 1.2857em;
   margin: calc(2rem -  0.14285em ) 0em 1rem;
   font-weight: bold;
@@ -89,7 +88,7 @@ h5:last-child {
 
 p {
   margin: 0em 0em 1em;
-  line-height: 1.4285em;
+  line-height: 1.5em;
 }
 p:first-child {
   margin-top: 0em;
@@ -103,11 +102,11 @@ p:last-child {
 --------------------*/
 
 a {
-  color: #4183c4;
+  color: #3498db;
   text-decoration: none;
 }
 a:hover {
-  color: #1e70bf;
+  color: #0c88db;
   text-decoration: none;
 }
 

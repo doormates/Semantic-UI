@@ -6,29 +6,33 @@
        Fonts
 --------------------*/
 
-@fontName          : 'Lato';
+@fontName          : 'Oxygen';
+@headingName       : 'Roboto';
 @fontSmoothing     : antialiased;
 
-@headerFont        : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@headerFont        : @headingName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
 @pageFont          : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
 
 @googleFontName    : @fontName;
+@googleFontName2   : @headingName;
 @importGoogleFonts : true;
-@googleFontSizes   : '400,700,400italic,700italic';
+@googleFontSizes   : '300,400';
+@googleFontSizes2  : '400,500,700';
 @googleSubset      : 'latin';
 
 @googleProtocol    : 'https://';
 @googleFontRequest : '@{googleFontName}:@{googleFontSizes}&subset=@{googleSubset}';
+@googleFontRequest2 : '@{googleFontName2}:@{googleFontSizes}&subset=@{googleSubset}';
 
 /*-------------------
       Base Sizes
 --------------------*/
 
 /* This is the single variable that controls them all */
-@emSize   : 14px;
+@emSize   : 15px;
 
 /* The size of page text  */
-@fontSize : 14px;
+@fontSize : 15px;
 
 
 /*-------------------
@@ -47,8 +51,8 @@
     Brand Colors
 --------------------*/
 
-@primaryColor        : @blue;
-@secondaryColor      : @black;
+@primaryColor        : @primary-blue;
+@secondaryColor      : @dark-blue;
 
 @lightPrimaryColor   : @lightBlue;
 @lightSecondaryColor : @lightBlack;
@@ -72,12 +76,12 @@
 
 /* This adjusts the default form input across all elements */
 @inputBackground        : @white;
-@inputVerticalPadding   : @relative11px;
-@inputHorizontalPadding : @relative14px;
+@inputVerticalPadding   : @relative17px;
+@inputHorizontalPadding : @relative17px;
 @inputPadding           : @inputVerticalPadding @inputHorizontalPadding;
 
 /* Line Height Default For Inputs in Browser */
-@inputLineHeight: 1.2142em;
+@inputLineHeight: 1.3em;
 
 /*-------------------
     Focused Input
@@ -129,7 +133,7 @@
        Links
 --------------------*/
 
-@linkColor           : #4183C4;
+@linkColor           : @primary-blue;
 @linkUnderline       : none;
 @linkHoverColor      : darken(saturate(@linkColor, 20), 15, relative);
 @linkHoverUnderline  : @linkUnderline;
@@ -197,20 +201,41 @@
 @purple           : #A333C8;
 @pink             : #E03997;
 @brown            : #A5673F;
-@grey             : #767676;
-@black            : #1B1C1D;
+
+@dark-blue        :#223039;
+@primary-blue     :#3498DB;
+
+@happy-green      :#00E3ED;
+@happy-green-shade:#00B5CA;
+@mn-pink          :#e74c3c;
+@mn-pink-shade    :#9e3838;
+
+@purple-murple    :#A69fed;
+@purple-murple-shade:#39318D;
+
+@happy-yellow       :#FADB50;
+@happy-yellow-shade :#d3C14d;
+
+@grey               :#ADADAD;
+@dark-grey          :#393939;
+
+@black              :#1D1D1D;
+@true-black         :#000000;
+
+@white              :#ffffff;
+@gray               :#e0e1e2;
 
 /*---  Light Colors  ---*/
-@lightRed         : #FF695E;
+@lightRed         : lighten(@mn-pink, 5);
 @lightOrange      : #FF851B;
-@lightYellow      : #FFE21F;
+@lightYellow      : lighten(@happy-yellow, 5);
 @lightOlive       : #D9E778;
-@lightGreen       : #2ECC40;
+@lightGreen       : lighten(@happy-green, 5);
 @lightTeal        : #6DFFFF;
-@lightBlue        : #54C8FF;
+@lightBlue        : lighten(@primary-blue, 5);
 @lightViolet      : #A291FB;
-@lightPurple      : #DC73FF;
-@lightPink        : #FF8EDF;
+@lightPurple      : lighten(@purple-murple, 5);
+@lightPink        : lighten(@mn-pink, 5);
 @lightBrown       : #D67C1C;
 @lightGrey        : #DCDDDE;
 @lightBlack       : #545454;
@@ -223,16 +248,16 @@
 @white            : #FFFFFF;
 
 /*--- Colored Backgrounds ---*/
-@redBackground    : #FFE8E6;
+@redBackground    : @mn-pink;
 @orangeBackground : #FFEDDE;
 @yellowBackground : #FFF8DB;
 @oliveBackground  : #FBFDEF;
-@greenBackground  : #E5F9E7;
+@greenBackground  : @happy-green;
 @tealBackground   : #E1F7F7;
-@blueBackground   : #DFF0FF;
-@violetBackground : #EAE7FF;
-@purpleBackground : #F6E7FF;
-@pinkBackground   : #FFE3FB;
+@blueBackground   : @primary-blue;
+@violetBackground : @purple-murple;
+@purpleBackground : @purple-murple;
+@pinkBackground   : @mn-pink;
 @brownBackground  : #F1E2D3;
 
 /*--- Colored Headers ---*/
@@ -251,14 +276,14 @@
 /*--- Colored Text ---*/
 @redTextColor    : @red;
 @orangeTextColor : @orange;
-@yellowTextColor : #B58105; // Yellow text is difficult to read
+@yellowTextColor : @happy-yellow-shade; // Yellow text is difficult to read
 @oliveTextColor  : #8ABC1E; // Olive is difficult to read
 @greenTextColor  : #1EBC30; // Green is difficult to read
 @tealTextColor   : #10A3A3; // Teal text is difficult to read
-@blueTextColor   : @blue;
+@blueTextColor   : @primary-blue;
 @violetTextColor : @violet;
-@purpleTextColor : @purple;
-@pinkTextColor   : @pink;
+@purpleTextColor : @purple-murple;
+@pinkTextColor   : @mn-pink;
 @brownTextColor  : @brown;
 
 /*-------------------
@@ -300,18 +325,18 @@
 --------------------*/
 
 /* Positive */
-@positiveColor           : @green;
-@positiveBackgroundColor : #FCFFF5;
+@positiveColor           : #1CE874;
+@positiveBackgroundColor : #16B85C;
 @positiveBorderColor     : #A3C293;
 @positiveHeaderColor     : #1A531B;
 @positiveTextColor       : #2C662D;
 
 /* Negative */
-@negativeColor           : @red;
+@negativeColor           : @mn-pink;
 @negativeBackgroundColor : #FFF6F6;
 @negativeBorderColor     : #E0B4B4;
-@negativeHeaderColor     : #912D2B;
-@negativeTextColor       : #9F3A38;
+@negativeHeaderColor     : @mn-pink;
+@negativeTextColor       : @mn-pink-shade;
 
 /* Info */
 @infoColor              : #31CCEC;
@@ -415,6 +440,12 @@
 @relative12px : unit( (12 / @emSize), em);
 @relative13px : unit( (13 / @emSize), em);
 @relative14px : unit( (14 / @emSize), em);
+@relative15px : unit( (15 / @emSize), em);
+@relative16px : unit( (16 / @emSize), em);
+@relative17px : unit( (17 / @emSize), em);
+@relative18px : unit( (18 / @emSize), em);
+@relative19px : unit( (19 / @emSize), em);
+@relative20px : unit( (20 / @emSize), em);
 
 /*-------------------
        Icons
@@ -643,16 +674,16 @@
 @primaryColorFocus    : saturate(darken(@primaryColor, 8), 20, relative);
 @secondaryColorFocus  : saturate(lighten(@secondaryColor, 8), 20, relative);
 
-@redFocus             : saturate(darken(@red, 8), 20, relative);
+@redFocus             : saturate(darken(@mn-pink, 8), 20, relative);
 @orangeFocus          : saturate(darken(@orange, 8), 20, relative);
-@yellowFocus          : saturate(darken(@yellow, 8), 20, relative);
+@yellowFocus          : saturate(darken(@happy-yellow, 8), 20, relative);
 @oliveFocus           : saturate(darken(@olive, 8), 20, relative);
-@greenFocus           : saturate(darken(@green, 8), 20, relative);
+@greenFocus           : saturate(darken(@happy-green, 8), 20, relative);
 @tealFocus            : saturate(darken(@teal, 8), 20, relative);
-@blueFocus            : saturate(darken(@blue, 8), 20, relative);
+@blueFocus            : saturate(darken(@primary-blue, 8), 20, relative);
 @violetFocus          : saturate(darken(@violet, 8), 20, relative);
-@purpleFocus          : saturate(darken(@purple, 8), 20, relative);
-@pinkFocus            : saturate(darken(@pink, 8), 20, relative);
+@purpleFocus          : saturate(darken(@purple-murple, 8), 20, relative);
+@pinkFocus            : saturate(darken(@mn-pink, 8), 20, relative);
 @brownFocus           : saturate(darken(@brown, 8), 20, relative);
 
 @lightRedFocus        : saturate(darken(@lightRed, 8), 20, relative);

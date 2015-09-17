@@ -22,7 +22,7 @@
   margin: 1em 0em;
   border: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: none;
-  border-radius: 0.28571429rem;
+  border-radius: 0.26666667rem;
   text-align: left;
   color: rgba(0, 0, 0, 0.87);
   border-collapse: separate;
@@ -57,7 +57,7 @@
   background: #f9fafb;
   text-align: inherit;
   color: rgba(0, 0, 0, 0.87);
-  padding: 0.92857143em 0.71428571em;
+  padding: 0.93333333em 0.73333333em;
   vertical-align: inherit;
   font-style: none;
   font-weight: bold;
@@ -69,13 +69,13 @@
   border-left: none;
 }
 .ui.table thead tr:first-child > th:first-child {
-  border-radius: 0.28571429rem 0em 0em 0em;
+  border-radius: 0.26666667rem 0em 0em 0em;
 }
 .ui.table thead tr:first-child > th:last-child {
-  border-radius: 0em 0.28571429rem 0em 0em;
+  border-radius: 0em 0.26666667rem 0em 0em;
 }
 .ui.table thead tr:first-child > th:only-child {
-  border-radius: 0.28571429rem 0.28571429rem 0em 0em;
+  border-radius: 0.26666667rem 0.26666667rem 0em 0em;
 }
 
 /* Footer */
@@ -88,7 +88,7 @@
   background: #f9fafb;
   text-align: inherit;
   color: rgba(0, 0, 0, 0.87);
-  padding: 0.71428571em 0.71428571em;
+  padding: 0.73333333em 0.73333333em;
   vertical-align: middle;
   font-style: normal;
   font-weight: normal;
@@ -98,13 +98,13 @@
   border-left: none;
 }
 .ui.table tfoot tr:first-child > th:first-child {
-  border-radius: 0em 0em 0em 0.28571429rem;
+  border-radius: 0em 0em 0em 0.26666667rem;
 }
 .ui.table tfoot tr:first-child > th:last-child {
-  border-radius: 0em 0em 0.28571429rem 0em;
+  border-radius: 0em 0em 0.26666667rem 0em;
 }
 .ui.table tfoot tr:first-child > th:only-child {
-  border-radius: 0em 0em 0.28571429rem 0.28571429rem;
+  border-radius: 0em 0em 0.26666667rem 0.26666667rem;
 }
 
 /* Table Row */
@@ -117,7 +117,7 @@
 
 /* Table Cells */
 .ui.table td {
-  padding: 0.71428571em 0.71428571em;
+  padding: 0.73333333em 0.73333333em;
   text-align: inherit;
 }
 
@@ -290,7 +290,7 @@
 }
 .ui.table tr.positive,
 .ui.table td.positive {
-  background: #fcfff5 !important;
+  background: #16b85c !important;
   color: #2c662d !important;
 }
 
@@ -305,7 +305,7 @@
 .ui.table tr.negative,
 .ui.table td.negative {
   background: #fff6f6 !important;
-  color: #9f3a38 !important;
+  color: #9e3838 !important;
 }
 
 /*--------------
@@ -319,7 +319,7 @@
 .ui.table tr.error,
 .ui.table td.error {
   background: #fff6f6 !important;
-  color: #9f3a38 !important;
+  color: #9e3838 !important;
 }
 
 /*--------------
@@ -483,7 +483,7 @@
 .ui.selectable.table tr.error:hover,
 .ui.selectable.table tr:hover td.error {
   background: #ffe7e7 !important;
-  color: #943634 !important;
+  color: #933434 !important;
 }
 .ui.selectable.table tr.warning:hover,
 .ui.selectable.table tr:hover td.warning {
@@ -497,13 +497,13 @@
 }
 .ui.selectable.table tr.positive:hover,
 .ui.selectable.table tr:hover td.positive {
-  background: #f7ffe6 !important;
+  background: #14aa55 !important;
   color: #275b28 !important;
 }
 .ui.selectable.table tr.negative:hover,
 .ui.selectable.table tr:hover td.negative {
   background: #ffe7e7 !important;
-  color: #943634 !important;
+  color: #933434 !important;
 }
 
 /*-------------------
@@ -532,7 +532,7 @@
   margin-bottom: 0em;
   top: 0px;
   margin-top: 1em;
-  border-radius: 0.28571429rem 0.28571429rem 0em 0em;
+  border-radius: 0.26666667rem 0.26666667rem 0em 0em;
 }
 .ui.table[class*="top attached"]:first-child {
   margin-top: 0em;
@@ -545,7 +545,7 @@
   top: 0px;
   margin-bottom: 1em;
   box-shadow: none, none;
-  border-radius: 0em 0em 0.28571429rem 0.28571429rem;
+  border-radius: 0em 0em 0.26666667rem 0.26666667rem;
 }
 .ui[class*="bottom attached"].table:last-child {
   margin-bottom: 0em;
@@ -687,19 +687,19 @@
 
 /* Grey */
 .ui.grey.table {
-  border-top: 0.2em solid #767676;
+  border-top: 0.2em solid #adadad;
 }
 .ui.inverted.grey.table {
-  background-color: #767676 !important;
+  background-color: #adadad !important;
   color: #ffffff !important;
 }
 
 /* Black */
 .ui.black.table {
-  border-top: 0.2em solid #1b1c1d;
+  border-top: 0.2em solid #1d1d1d;
 }
 .ui.inverted.black.table {
-  background-color: #1b1c1d !important;
+  background-color: #1d1d1d !important;
   color: #ffffff !important;
 }
 
