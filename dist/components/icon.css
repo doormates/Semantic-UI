@@ -206,7 +206,7 @@ i.bordered.inverted.icon {
 /* Inverted Shapes */
 i.inverted.bordered.icon,
 i.inverted.circular.icon {
-  background-color: #1b1c1d !important;
+  background-color: #1d1d1d !important;
   color: #ffffff !important;
 }
 i.inverted.icon {
@@ -223,7 +223,7 @@ i.red.icon {
   color: #db2828 !important;
 }
 i.inverted.red.icon {
-  color: #ff695e !important;
+  color: #ea6153 !important;
 }
 i.inverted.bordered.red.icon,
 i.inverted.circular.red.icon {
@@ -249,7 +249,7 @@ i.yellow.icon {
   color: #fbbd08 !important;
 }
 i.inverted.yellow.icon {
-  color: #ffe21f !important;
+  color: #fbe069 !important;
 }
 i.inverted.bordered.yellow.icon,
 i.inverted.circular.yellow.icon {
@@ -275,7 +275,7 @@ i.green.icon {
   color: #21ba45 !important;
 }
 i.inverted.green.icon {
-  color: #2ecc40 !important;
+  color: #08f5ff !important;
 }
 i.inverted.bordered.green.icon,
 i.inverted.circular.green.icon {
@@ -301,7 +301,7 @@ i.blue.icon {
   color: #2185d0 !important;
 }
 i.inverted.blue.icon {
-  color: #54c8ff !important;
+  color: #4aa3df !important;
 }
 i.inverted.bordered.blue.icon,
 i.inverted.circular.blue.icon {
@@ -327,7 +327,7 @@ i.purple.icon {
   color: #a333c8 !important;
 }
 i.inverted.purple.icon {
-  color: #dc73ff !important;
+  color: #bab4f1 !important;
 }
 i.inverted.bordered.purple.icon,
 i.inverted.circular.purple.icon {
@@ -340,7 +340,7 @@ i.pink.icon {
   color: #e03997 !important;
 }
 i.inverted.pink.icon {
-  color: #ff8edf !important;
+  color: #ea6153 !important;
 }
 i.inverted.bordered.pink.icon,
 i.inverted.circular.pink.icon {
@@ -363,27 +363,27 @@ i.inverted.circular.brown.icon {
 
 /* Grey */
 i.grey.icon {
-  color: #767676 !important;
+  color: #adadad !important;
 }
 i.inverted.grey.icon {
   color: #dcddde !important;
 }
 i.inverted.bordered.grey.icon,
 i.inverted.circular.grey.icon {
-  background-color: #767676 !important;
+  background-color: #adadad !important;
   color: #ffffff !important;
 }
 
 /* Black */
 i.black.icon {
-  color: #1b1c1d !important;
+  color: #1d1d1d !important;
 }
 i.inverted.black.icon {
   color: #545454 !important;
 }
 i.inverted.bordeblack.black.icon,
 i.inverted.circular.black.icon {
-  background-color: #1b1c1d !important;
+  background-color: #1d1d1d !important;
   color: #ffffff !important;
 }
 
@@ -394,17 +394,17 @@ i.inverted.circular.black.icon {
 i.mini.icon,
 i.mini.icons {
   line-height: 1;
-  font-size: 0.71428571rem;
+  font-size: 0.73333333rem;
 }
 i.tiny.icon,
 i.tiny.icons {
   line-height: 1;
-  font-size: 0.85714286rem;
+  font-size: 0.86666667rem;
 }
 i.small.icon,
 i.small.icons {
   line-height: 1;
-  font-size: 0.92857143em;
+  font-size: 0.93333333em;
 }
 i.icon,
 i.icons {
@@ -479,7 +479,7 @@ i.icons .corner.icon {
   text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 i.icons .inverted.corner.icon {
-  text-shadow: -1px -1px 0 #1b1c1d, 1px -1px 0 #1b1c1d, -1px 1px 0 #1b1c1d, 1px 1px 0 #1b1c1d;
+  text-shadow: -1px -1px 0 #1d1d1d, 1px -1px 0 #1d1d1d, -1px 1px 0 #1d1d1d, 1px 1px 0 #1d1d1d;
 }
 /*
  * Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome

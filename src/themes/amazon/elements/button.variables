@@ -3,10 +3,10 @@
 --------------------*/
 
 /* Button Variables */
-@pageFont: Helvetica Neue, Helvetica, Arial, sans-serif;
+@pageFont: 'Oxygen', Helvetica, Arial, sans-serif;
 @textTransform: none;
 @textColor: #111111;
-@fontWeight: normal;
+@fontWeight: 400;
 @transition:
   opacity @defaultDuration @defaultEasing,
   background-color @defaultDuration @defaultEasing,
@@ -48,11 +48,11 @@
 @primaryColor: @orange;
 @secondaryColor: @black;
 
-@mini: 10px;
-@tiny: 11px;
-@small: 12px;
-@medium: 13px;
-@large: 14px;
+@mini: 11px;
+@tiny: 12px;
+@small: 13px;
+@medium: 14px;
+@large: 15px;
 @big: 16px;
 @huge: 18px;
 @massive: 22px;

@@ -112,11 +112,11 @@
 
 .ui.statistics .statistic > .value,
 .ui.statistic > .value {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Oxygen', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 4rem;
   font-weight: normal;
   line-height: 1em;
-  color: #1b1c1d;
+  color: #1d1d1d;
   text-transform: uppercase;
   text-align: center;
 }
@@ -127,7 +127,7 @@
 
 .ui.statistics .statistic > .label,
 .ui.statistic > .label {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1em;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.87);
@@ -390,7 +390,7 @@
 .ui.grey.statistics .statistic > .value,
 .ui.statistics .grey.statistic > .value,
 .ui.grey.statistic > .value {
-  color: #767676;
+  color: #adadad;
 }
 
 /*--------------
@@ -408,7 +408,7 @@
 .ui.inverted.red.statistics .statistic > .value,
 .ui.statistics .inverted.red.statistic > .value,
 .ui.inverted.red.statistic > .value {
-  color: #ff695e;
+  color: #ea6153;
 }
 .ui.inverted.orange.statistics .statistic > .value,
 .ui.statistics .inverted.orange.statistic > .value,
@@ -418,7 +418,7 @@
 .ui.inverted.yellow.statistics .statistic > .value,
 .ui.statistics .inverted.yellow.statistic > .value,
 .ui.inverted.yellow.statistic > .value {
-  color: #ffe21f;
+  color: #fbe069;
 }
 .ui.inverted.olive.statistics .statistic > .value,
 .ui.statistics .inverted.olive.statistic > .value,
@@ -428,7 +428,7 @@
 .ui.inverted.green.statistics .statistic > .value,
 .ui.statistics .inverted.green.statistic > .value,
 .ui.inverted.green.statistic > .value {
-  color: #2ecc40;
+  color: #08f5ff;
 }
 .ui.inverted.teal.statistics .statistic > .value,
 .ui.statistics .inverted.teal.statistic > .value,
@@ -438,7 +438,7 @@
 .ui.inverted.blue.statistics .statistic > .value,
 .ui.statistics .inverted.blue.statistic > .value,
 .ui.inverted.blue.statistic > .value {
-  color: #54c8ff;
+  color: #4aa3df;
 }
 .ui.inverted.violet.statistics .statistic > .value,
 .ui.statistics .inverted.violet.statistic > .value,
@@ -448,12 +448,12 @@
 .ui.inverted.purple.statistics .statistic > .value,
 .ui.statistics .inverted.purple.statistic > .value,
 .ui.inverted.purple.statistic > .value {
-  color: #dc73ff;
+  color: #bab4f1;
 }
 .ui.inverted.pink.statistics .statistic > .value,
 .ui.statistics .inverted.pink.statistic > .value,
 .ui.inverted.pink.statistic > .value {
-  color: #ff8edf;
+  color: #ea6153;
 }
 .ui.inverted.brown.statistics .statistic > .value,
 .ui.statistics .inverted.brown.statistic > .value,
